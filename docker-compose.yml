@@ -1,0 +1,40 @@
+version: "3.8"
+services:
+  ui:
+    build: ./client
+    ports:
+      - '8000:8000'
+    depends_on:
+      - api
+      
+    networks:
+      - ui
+  api:
+    build: ./server
+    ports:
+      - '3000:3000'
+    depends_on:
+      - mongo
+      
+    networks:
+    
+      - ui
+      - api
+  mongo:
+    image: mongo
+    
+    restart: always
+    volumes: 
+      - mongodb_data:/data/db
+    environment: 
+      MONGODB_INITDB_ROOT_USERNAME: username
+      MONGODB_INITDB_ROOT_PASSWORD: password
+    networks: 
+     - api
+
+networks:
+  api:
+  ui:
+
+volumes:
+  mongodb_data:

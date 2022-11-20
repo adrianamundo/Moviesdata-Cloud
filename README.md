@@ -14,3 +14,13 @@ Proyecto Cloud UFM '22
 - Frontend:
 ![My Image](pictures/frontendyml.jpg)
 - Backend
+![My Image](pictures/backendyml.jpg)
+
+### Agregar, editar y eliminar películas:
+- Agregar 
+![My Image](pictures/agregarpelicula1.jpg)
+![My Image](pictures/agregarpelicula2.jpg)
+- Editar
+![My Image](pictures/agregarpelicula3.jpg)
+- Eliminar
+![My Image](pictures/agregarpelicula4.jpg)

@@ -17,11 +17,12 @@ spec:
     spec:
       containers:
       - name: todo-web-app
-        image: jeanmr/ui_client
+        image: jeanmr/ui_client:latest
         ports:
-        - containerPort: 3000
+        - containerPort: 8000
         env:
-          REACT_APP_API_URL: http://k8s-developm-todoapil-a65c36a2cd-446615261732b7ad.elb.us-east-1.amazonaws.com/api
+        - name: REACT_APP_API_URL
+          value: http://k8s-developm-todoapil-008b3e3693-3267e61d0469a8b5.elb.us-east-1.amazonaws.com/api
 ---
 apiVersion: v1
 kind: Service
@@ -36,6 +37,6 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-  - port: 3000
+  - port: 8000
   selector:
     app: todo-web-app

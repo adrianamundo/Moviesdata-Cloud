@@ -1,5 +1,5 @@
 # Moviesdata-Cloud
-Proyecto Cloud
+Proyecto Cloud UFM '22
 ## Instrucciones para correr:
 1. Ejecutar en la terminal: "git clone https://github.com/adrianamundo/Moviesdata-Cloud.git"
 2. Movilizarse a la carpeta donde se encuentra el docker-compose.yml
@@ -10,3 +10,7 @@ Proyecto Cloud
 
 
 ## Screenshots de código:
+### Docker compose de frontend y backend:
+- Frontend:
+
+- Backend

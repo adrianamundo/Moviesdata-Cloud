@@ -1,6 +1,6 @@
 # Moviesdata-Cloud
 Proyecto Cloud
-- Instrucciones para correr:
+## Instrucciones para correr:
 1. Ejecutar en la terminal: "git clone https://github.com/adrianamundo/Moviesdata-Cloud.git"
 2. Movilizarse a la carpeta donde se encuentra el docker-compose.yml
 3. Ejecutar en la terminal: "docker-compose up -d"
@@ -9,4 +9,4 @@ Proyecto Cloud
 
 
 
-- Screenshots de cómo funciona el código:
+## Screenshots de código:

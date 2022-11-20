@@ -12,5 +12,5 @@ Proyecto Cloud UFM '22
 ## Screenshots de código:
 ### Docker compose de frontend y backend:
 - Frontend:
-
+![My Image](pictures/frontendyml.jpg)
 - Backend
